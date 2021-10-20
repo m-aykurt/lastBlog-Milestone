@@ -8,6 +8,8 @@ import Avatar from "@mui/material/Avatar";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
+import CssBaseline from '@mui/material/CssBaseline';
+
 
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
@@ -40,6 +42,7 @@ export default function MenuAppBar(props) {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
+      <CssBaseline/>
       <AppBar position="static">
         <Toolbar>
           <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
